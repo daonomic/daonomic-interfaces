@@ -1,6 +1,6 @@
 {
-  "name": "daonomic-interfaces",
-  "version": "0.0.1",
+  "name": "@daonomic/interfaces",
+  "version": "0.0.2",
   "description": "Just useful interfaces. Standards (ERC20 etc.) or close to standards",
   "main": "truffle.js",
   "directories": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daonomic/daonomic-interfaces.git"
+    "url": "git+https://github.com/daonomic/interfaces.git"
   },
   "keywords": [
     "ethereum"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/daonomic/daonomic-interfaces/issues"
+    "url": "https://github.com/daonomic/interfaces/issues"
   },
-  "homepage": "https://github.com/daonomic/daonomic-interfaces"
+  "homepage": "https://github.com/daonomic/interfaces"
 }
