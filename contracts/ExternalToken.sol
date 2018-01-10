@@ -4,7 +4,7 @@ pragma solidity ^0.4.0;
 import "./Token.sol";
 
 /**
- * @title Token represents some external value (for example, BTC, USD etc)
+ * @title Token represents some external value (for example, BTC)
  */
 contract ExternalToken is Token {
     event Mint(address indexed to, uint256 value, bytes data);
