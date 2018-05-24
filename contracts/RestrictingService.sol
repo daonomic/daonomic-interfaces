@@ -1,5 +1,10 @@
 pragma solidity ^0.4.0;
 
 contract RestrictingService {
-    function canTransfer(address _from, address _to, uint _amount) public returns (bool);
+    /**
+     * @dev this is called from RestrictedToken when transfer has to be made
+     * @dev RestrictingService can change its state
+     * @return true if transfer is allowed
+     */
+    function onTransfer(address _from, address _to, uint _amount) public returns (bool);
 }
