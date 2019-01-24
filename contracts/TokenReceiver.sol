@@ -5,5 +5,5 @@ pragma solidity ^0.5.0;
  * @dev see https://github.com/ethereum/EIPs/issues/223
  */
 contract TokenReceiver {
-    function onTokenTransfer(address _from, uint256 _value, bytes _data) public;
+    function onTokenTransfer(address _from, uint256 _value, bytes memory _data) public;
 }

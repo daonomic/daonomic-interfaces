@@ -9,7 +9,7 @@ import "./BasicToken.sol";
  * @dev see https://github.com/ethereum/EIPs/issues/20
  */
 contract Token is BasicToken {
-  function allowance(address tokenOwner, address spender) public constant returns (uint remaining);
+  function allowance(address tokenOwner, address spender) public view returns (uint remaining);
   function approve(address spender, uint tokens) public returns (bool success);
   function transferFrom(address from, address to, uint tokens) public returns (bool success);
 

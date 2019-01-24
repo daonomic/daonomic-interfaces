@@ -1,4 +1,5 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.5.3;
+pragma experimental ABIEncoderV2;
 
 import "./HasInvestor.sol";
 
@@ -15,5 +16,5 @@ contract KycProvider is HasInvestor {
      * @param _address Investor's Ethereum address
      * @return struct representing investor - its jurisdiction and some generic data
      */
-    function resolve(address _address) constant public returns (Investor);
+    function resolve(address _address) view public returns (Investor memory);
 }
